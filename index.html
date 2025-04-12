@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "「离开世界之前 一切都是过程」"
+description: "「一切都是过程」"
 ---
 
 {% for post in paginator.posts %}
@@ -44,3 +44,27 @@ description: "「离开世界之前 一切都是过程」"
     {% endif %}
 </ul>
 {% endif %}
+
+<!-- Dify Chatbot -->
+<script>
+ window.difyChatbotConfig = {
+  token: 'UWNIFCJbIC5kiskg',
+  systemVariables: {
+    // user_id: 'YOU CAN DEFINE USER ID HERE',
+  },
+ }
+</script>
+<script
+ src="https://udify.app/embed.min.js"
+ id="UWNIFCJbIC5kiskg"
+ defer>
+</script>
+<style>
+  #dify-chatbot-bubble-button {
+    background-color: #1C64F2 !important;
+  }
+  #dify-chatbot-bubble-window {
+    width: 24rem !important;
+    height: 40rem !important;
+  }
+</style>
