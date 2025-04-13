@@ -12,7 +12,7 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 future: true
 
 # SNS settings
-RSS: false
+RSS: false 
 weibo_username: shu
 zhihu_username: shu
 github_username: shu
