@@ -7,8 +7,7 @@ header-img: "img/post-bg-infinity.jpg"
 header-mask: 0.3
 mathjax: true
 tags:
-  - 知乎
-  - 计算理论
+  - tag1
 ---
 
 test3

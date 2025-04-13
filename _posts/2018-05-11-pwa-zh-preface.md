@@ -6,8 +6,7 @@ author:       "shu"
 header-style: text
 catalog:      true
 tags:
-    - Web
-    - PWA
+    - tag2
 ---
 
 test2
